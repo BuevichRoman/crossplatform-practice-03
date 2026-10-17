@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'">
+  <title>Electron File Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Буевич Р. Р., группа ТРПО23-1</h1>
+  <div class="cols">
+    <section>
+      <button id="show">Показать содержимое каталога</button>
+      <ul id="list"></ul>
+    </section>
+    <section>
+      <button id="sysinfo">Информация о системе</button>
+      <table id="info"></table>
+    </section>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>

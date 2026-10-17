@@ -1,0 +1,10 @@
+body { font-family: -apple-system, "Segoe UI", sans-serif; margin: 24px; color: #222; }
+h1 { font-size: 20px; margin: 0 0 16px; }
+.cols { display: flex; gap: 32px; }
+section { flex: 1; }
+button { padding: 8px 14px; font-size: 14px; cursor: pointer; }
+ul { list-style: none; padding: 0; }
+li { padding: 3px 0; }
+li.dir { font-weight: bold; color: #1a5fb4; }
+table { margin-top: 12px; border-collapse: collapse; }
+th, td { text-align: left; padding: 4px 10px; border-bottom: 1px solid #ddd; }
