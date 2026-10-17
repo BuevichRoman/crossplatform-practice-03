@@ -1,0 +1,24 @@
+{
+  "name": "electron-file-explorer",
+  "version": "1.0.0",
+  "description": "Практическая работа №3 по кросс-платформенной разработке: файловый обозреватель на Electron (вариант 2 — информация о системе)",
+  "main": "main.js",
+  "author": "Буевич Р. Р., группа ТРПО23-1",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "ru.fa.student.fileexplorer",
+    "productName": "Electron File Explorer",
+    "files": ["main.js", "preload.js", "renderer.js", "index.html", "styles.css"],
+    "win": { "target": "nsis" },
+    "linux": { "target": "AppImage" },
+    "mac": { "target": "dmg", "identity": null }
+  },
+  "devDependencies": {
+    "electron": "^44.9.0",
+    "electron-builder": "^26.15.3"
+  }
+}
